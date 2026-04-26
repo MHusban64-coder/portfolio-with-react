@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Creative Agency Landing Page",
+    "category": "Landing Page",
+    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
+    "description": "A modern landing page with a bold hero section, service highlights, testimonials, and a call-to-action footer.",
+    "stack": ["React", "Tailwind CSS", "Responsive UI"],
+    "liveUrl": "https://example.com/agency",
+    "githubUrl": "https://github.com/yourusername/agency-landing-page"
+  },
+  {
+    "id": 2,
+    "title": "E-Commerce Product Showcase",
+    "category": "Product UI",
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1200&q=80",
+    "description": "A clean product browsing layout with featured items, filter sections, and polished product cards.",
+    "stack": ["React", "Tailwind CSS", "Card Layout"],
+    "liveUrl": "https://example.com/store",
+    "githubUrl": "https://github.com/yourusername/ecommerce-showcase"
+  },
+  {
+    "id": 3,
+    "title": "Task Manager Dashboard",
+    "category": "Dashboard",
+    "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80",
+    "description": "A dashboard interface with progress cards, task lists, and a responsive sidebar-inspired layout.",
+    "stack": ["React", "Tailwind CSS", "Dashboard UI"],
+    "liveUrl": "https://example.com/dashboard",
+    "githubUrl": "https://github.com/yourusername/task-dashboard"
+  },
+  {
+    "id": 4,
+    "title": "Personal Blog Homepage",
+    "category": "Content Layout",
+    "image": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=1200&q=80",
+    "description": "A minimal blog homepage with featured posts, category cards, and a newsletter call-to-action section.",
+    "stack": ["React", "Tailwind CSS", "Typography"],
+    "liveUrl": "https://example.com/blog",
+    "githubUrl": "https://github.com/yourusername/blog-homepage"
+  }
+]

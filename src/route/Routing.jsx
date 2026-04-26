@@ -1,33 +1,27 @@
-import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from "../pages/Home";
-import Product from "../pages/Product";
-import NotFoundPage from "../pages/NotFoundPage";
-import ProductDetail from "../pages/ProductDetail";
+import MainLayout from "../components/MainLayout";
 import About from "../pages/About";
-import Signup from "../pages/Signup";
-import Navbar from "../components/Navbar";
-import Checkout from "../pages/Checkout";
-import Cart from "../pages/Cart";
-
+import Contact from "../pages/Contact";
+import Home from "../pages/Home";
+import NotFoundPage from "../pages/Notfoundpage";
+import Projects from "../pages/Projects";
+import Skills from "../pages/Skills";
 
 function Routing() {
   return (
     <BrowserRouter>
-      <Navbar />
       <Routes>
-        <Route path="*" element={<NotFoundPage />} />
-        <Route path="/" element={<Home />} />
-        <Route path="/product" element={<Product />} />
-        <Route path="/product/:title" element={<ProductDetail />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/signup" element={<Signup />}>
-          <Route index element={<Checkout />} />
-          <Route path="cart" element={<Cart />} />
+        <Route element={<MainLayout />}>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/skills" element={<Skills />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<NotFoundPage />} />
         </Route>
       </Routes>
-      
     </BrowserRouter>
   );
 }
+
 export default Routing;
